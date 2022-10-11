@@ -1,0 +1,223 @@
+/* SOCIALLINKS */
+#socialmedia-icons-div{
+    position:fixed;
+    z-index: +3;
+    top: 32%;
+    right: 0px;
+}
+#socialmedia-icons-div ul li{
+    list-style: none;
+}
+#socialmedia-icons-div ul{
+    display: flex;
+    flex-direction: column;
+}
+.socialmediaicons{
+    height: 45px;
+    width: 45px;
+    margin: 3px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socialmediaicons img{
+    height: 28px;
+    width: 28px;
+}
+/* SECTION1 */
+#section1 {
+    background: url(./../assets/images/banner-background.png);
+    color: #4d4d4d;
+    padding: 100px 100px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: row;
+}
+#section1-heading-div {
+    display: flex;
+    flex-direction: column;
+    text-align: initial;
+    align-items: flex-start;
+}
+#section1-image-div {
+    position: relative;
+
+}
+
+#section1-img2 {
+    position: absolute;
+    top: 0px;
+    left:8px;
+    height: 439px;
+    width: 444px;
+}
+
+#section1-img1 {
+    width: 444px;
+    height: 412px;
+}
+
+#section1-heading-div h3 {
+    font-size: 19px;
+    font-family: "Poppins-Bold";
+}
+#section1-heading-div h1{
+    font-size: 40px;
+    font-family: "Poppins-Bold";
+}
+#section1-heading-div h1 span{
+    color: #bc2026;
+}
+#section1-heading-div a{
+    border: 2px solid #4d4d4d;
+    text-decoration: none;
+    color: #4d4d4d;
+    font-family: "Poppins-Bold";
+    padding: 8px 20px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+/* ABOUTUS */
+#section2{
+    padding:100px;
+}
+#section2-video img{
+    height: 320px;
+    width: 489.5px;
+    margin-top: 11px;
+}
+#section2-para h1{
+    font-family: "Poppins-Bold";
+    font-size: 25px;
+    line-height: 45px;
+    color: #bc2026;
+}
+#section2-para p{
+    font-family: "Poppins-Medium";
+    font-size: 17px;
+    font-weight: 500;
+    color: #4d4d4d;
+    line-height: 35px;
+}
+#section2-para a{
+    font-family: "Poppins-Bold";
+    font-size: 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    color:white;
+    background-color: #bc2026;
+    line-height: 62px;
+    padding: 13px 40px;
+}
+
+
+/* SECTION3 */
+#section3{
+    background:url(./../assets/images/home-section-3.png);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    height: 350px;
+    margin-bottom: 100px;
+    position: relative;
+}
+#section3-div1{
+    background-color: #bc2026;
+    display: flex;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    align-items: center;
+    padding: 69px 77.33px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.section3-col{
+    color: white;
+    font-family:"Poppins-Medium";
+    padding: 10px;
+}
+.section3-col h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.section3-col p{
+    font-size: 18px;
+}
+
+/* SECTION5 */
+#section5{
+    padding: 25px 0px;
+}
+#section5 span{
+    color: #bc2026;
+}
+.para1{
+    font-family: "Poppins-Bold";
+    font-size: 25px;
+    line-height: 42.5px;
+}
+
+
+/* SECTION6 */
+#section6{
+    display: flex;
+    justify-content: center;
+    padding: 0px 91px;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.section6-images-div{
+    background-color: #bc2026;
+    padding: 13px;
+    margin: 0px 0px 10px 0px;
+    border-radius: 37px;
+}
+.section6-images-div img{
+    width: 38px;
+    height: 38px;
+}
+#section6-div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section6-div1-cols{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section6-div3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section6-div3-cols{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#section6 h4{
+    font-family: "Poppins-Medium";
+    font-size: 20px;
+    color: black;
+}
+#section6 p{
+    font-family: "Poppins-Regular";
+    margin-bottom: 0px;
+    font-size: 11px;
+    line-height: 30px;
+    color:#4d4d4d;
+}
+#section6-div2{
+    background: url(./../assets/images/mobile-mockup.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 348px;
+    height: 709px;
+    padding-left:22px ;
+    padding-top:64px;
+}
